@@ -1,0 +1,119 @@
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  'one one one one one one'
+  'two two two two two two'
+  'three three three three three three'
+  'four four four four four four'
+  'five five five five five five'
+  'six six six six six six'
+  'seven seven seven seven seven seven';
+}
+#one{
+  background-color: red;
+  grid-area: one;
+  background-image: url(../assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width:auto;
+  text-align: center;
+  color: white;
+}
+#two{
+  background-color: #c6bfa5;
+  grid-area: two;
+  display: flex;
+  height: 125px;
+  justify-content: space-between;
+
+}
+#three{
+  background-color: white;
+  grid-area: three;
+  height: 400px;
+  padding-top: 40px;
+  padding-left: 20px;
+
+}
+#four{
+  background: green;
+  grid-area: four;
+}
+#five{
+  background-color: blue;
+  grid-area: five;
+
+}
+#six{
+  background-color: indigo;
+  grid-area: six;
+}
+#seven{
+  background-color: violet;
+  grid-area: seven;
+}
+ul{
+  list-style: none;
+  color: white;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  color: white;
+  float: left;
+  font-size: 50px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  margin: 20px;
+  font-family: Helvetica;
+  
+}
+p{
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 2px;
+}
+.main{
+  font-size: 30px;
+  font-family: Helvetica;
+  line-height: 10px;
+  padding: 10px;
+}
+button{
+  background-color: #661a00;
+  margin: 38px;
+  color: white;
+  float: right;
+}
+#two ul{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #333333;
+  font-family: Helvetica;
+}
+.check{
+  background-color: white;
+  height: 15px;
+}
+#three p::after{
+  content:"";
+  display: block;
+  width: 95%;
+  height: 2px;
+  background: #cbcbcb;
+  float: right;
+
+}
